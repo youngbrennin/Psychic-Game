@@ -1,0 +1,71 @@
+body {
+    margin: 0px;
+}
+
+header {
+    text-align: center;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    background-color: rgb(228, 134, 26);
+    animation-name: Psycho;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Psycho {
+ 0% {
+    background-color: rgb(228, 134, 26);
+}
+25% {
+    background-color: rgb(219, 84, 84);
+}
+50% {
+    background-color: rgb(173, 136, 233);
+}
+100% {
+    background-color: rgb(228, 134, 26);
+}
+}
+
+
+.content {
+    margin-left: 20px;
+}
+
+.win {
+    color: green;
+    font-weight: bold;
+}
+
+.lose {
+    color: red;
+    font-weight: bold;
+}
+
+.guess {
+    color: orange;
+    font-weight: bold;
+
+}
+
+img {
+    height: 217px; 
+    width: 190px;
+    margin-top: -195px;
+    margin-left: 300px;
+    position: relative;
+    animation-name: PikaMove;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+    @keyframes PikaMove {
+        0%   {right:0px; top:0px;}
+        25% {left:0px; top:0px;}
+        50% {left:1050px; top:0px;}
+        100% {left:0px; top:0px;}
+    }
+
+
+
+
